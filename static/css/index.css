@@ -1,0 +1,45 @@
+@import url('./header.css');
+@import url('./footer.css');
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    --SoftRed: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --DarkDesaturatedCyan: hsl(167, 40%, 24%);
+    --Darkblue: hsl(198, 62%, 26%);
+    --DarkModerateCyan: hsl(168, 34%, 41%);
+    /* ### Neutral */
+    --VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+    --VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+    --DarkDrayishBlue: hsl(232, 10%, 55%);
+    --GrayishBlue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --transition: linear .7s all
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Barlow', serif;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    font-family: 'Fraunces', serif;
+    margin-top: 30vh;
+}
+
+@media screen and (min-width: 1280px) {
+    .title {
+        margin-top: 10vh;
+    }
+}

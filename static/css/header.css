@@ -1,0 +1,31 @@
+@import url('./menu.css');
+.header {
+    height: 100vh;
+    position: sticky;
+    padding: 1rem;
+    background-image: url('../images/mobile/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    position: sticky;
+    top: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        background-image: url('../images/desktop/image-header.jpg');
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
