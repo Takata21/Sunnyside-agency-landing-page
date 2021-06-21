@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./features.css');
 @import url('../css/testimonials.css');
+@import url('./gallery.css');
 @import url('./footer.css');
 :root {
     /* ## Colors */
