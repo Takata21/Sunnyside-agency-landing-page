@@ -1,4 +1,6 @@
 @import url('./header.css');
+@import url('./features.css');
+@import url('../css/testimonials.css');
 @import url('./footer.css');
 :root {
     /* ## Colors */
@@ -42,4 +44,8 @@ body {
     .title {
         margin-top: 10vh;
     }
+}
+
+.show {
+    display: none;
 }

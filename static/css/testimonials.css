@@ -1,0 +1,9 @@
+.testimonials {
+    text-align: center;
+}
+
+.testimonial-title {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    color: var(--VeryDarkGrayishBlue);
+}
