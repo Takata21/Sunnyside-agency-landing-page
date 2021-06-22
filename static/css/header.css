@@ -1,4 +1,9 @@
 @import url('./menu.css');
+.arrow {
+    text-align: center;
+    margin-top: 4rem;
+}
+
 .header {
     height: 100vh;
     position: sticky;
@@ -16,8 +21,12 @@
 }
 
 .header-content {
-    position: sticky;
-    top: 1rem;
+    position: fixed;
+    margin: 0 1rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
 }
 
 @media screen and (min-width: 1280px) {
@@ -27,5 +36,8 @@
     .header-content {
         display: flex;
         justify-content: space-between;
+    }
+    .arrow {
+        margin-top: 6rem;
     }
 }
